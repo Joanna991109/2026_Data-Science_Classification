@@ -48,9 +48,9 @@ To run the notebook, ensure you have the following libraries installed:
 - `matplotlib`, `seaborn`
 
 ## Usage
-1. Place `train.csv` and `test.csv` in the root directory.
+1. Place `train.csv` and `test.csv` in the root/data directory.
 2. Run the `main.ipynb` notebook sequentially.
-3. The final predictions will be exported as `submission.csv`, formatted for Kaggle (columns: `Id`, `Bankrupt`).
+3. The final predictions `submission.csv` will be exported to root/result, formatted for Kaggle (columns: `Id`, `Bankrupt`).
 
 ## Project Structure
 - `main.ipynb`: The primary execution script containing all logic from data loading to final CSV export.
@@ -58,5 +58,5 @@ To run the notebook, ensure you have the following libraries installed:
 - `README.md`: Project documentation.
 
 ---
-**Author:** Joanna (Student ID: 114065514)  
-**Course:** Machine Learning - Homework 2
+**Author:** Joanna
+**Course:** Data Science - Homework 2
